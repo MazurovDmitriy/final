@@ -1,0 +1,7 @@
+
+.how__slider-step, .meet__img img, .meet__button-container a, .search__button, .search__input {
+		behavior: url(/PIE.htc);
+}
+.discover__image {
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	}

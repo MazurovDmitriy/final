@@ -1,0 +1,33 @@
+
+@mixin sectionHeader {
+    font: {
+      family: montserratbold;
+      size: 22px;
+      weight: bold;
+    }
+    text-align: center;
+    line-height: 1.5em;
+    color:  #333333;
+  }
+@import "fonts";
+* {
+	margin: 0;
+	padding: 0
+}
+body {
+	font: 14px/1.5em robotolight, Arial, sans-serif;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+a img {border: none;}
+
+
+@import "mobile";
+@import "tablet";
+@import "desktop";
+
+
+
+
+
